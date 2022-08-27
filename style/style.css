@@ -41,6 +41,14 @@
     margin-top: 32px;
     margin-bottom: 32px;
 }
+.my-9{
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+.my-10{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
 .mx-0 {
     margin-left: 0;
@@ -78,6 +86,14 @@
     margin-left: 32px;
     margin-right: 32px;
 }
+.mx-9 {
+    margin-left: 36px;
+    margin-right: 36px;
+}
+.mx-10 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
 /* Affect individual */
 .mt-0 {
     margin-top: 0;
@@ -106,6 +122,12 @@
 .mt-8 {
     margin-top: 32px;
 }
+.mt-9 {
+    margin-top: 36px;
+}
+.mt-9 {
+    margin-top: 40px;
+}
 .mb-0 {
     margin-bottom: 0;
 }
@@ -132,6 +154,12 @@
 }
 .mb-8 {
     margin-bottom: 32px;
+}
+.mb-9 {
+    margin-bottom: 36px;
+}
+.mb-10 {
+    margin-bottom: 40px;
 }
 .ml-0 {
     margin-left: 0;
@@ -160,6 +188,12 @@
 .ml-8 {
     margin-left: 32px;
 }
+.ml-9 {
+    margin-left: 36px;
+}
+.ml-10 {
+    margin-left: 40px;
+}
 
 .mr-0 {
     margin-right: 0;
@@ -187,4 +221,10 @@
 }
 .mr-8 {
     margin-right: 32px;
+}
+.mr-9 {
+    margin-right: 36px;
+}
+.mr-10 {
+    margin-right: 40px;
 }
