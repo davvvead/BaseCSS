@@ -58,7 +58,6 @@
     margin-left: 4px;
     margin-right: 4px;
 }
-
 .mx-2 {
     margin-left: 8px;
     margin-right: 8px;
@@ -99,6 +98,16 @@
 .mt-0 {
     margin-top: 0;
 }
+.mb-0 {
+    margin-bottom: 0;
+}
+.ml-0 {
+    margin-left: 0;
+}
+.mr-0 {
+    margin-right: 0;
+}
+
 .mt-1{
     margin-top: 4px;
 }
@@ -129,6 +138,7 @@
 .mt-10 {
     margin-top: 40px;
 }
+
 .mb-0 {
     margin-bottom: 0;
 }
@@ -289,7 +299,6 @@
     margin-left: 4px;
     margin-right: 4px;
 }
-
 .px-2 {
     margin-left: 8px;
     margin-right: 8px;
