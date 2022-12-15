@@ -23,14 +23,57 @@
 .flex {
     display: flex;
 }
-.flex-row {
-    flex-direction: row;
+.flex-wrap {
+    flex-wrap: wrap;
 }
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+/* FLEX - columns */
 .flex-col {
     flex-direction: column;
 }
+.flex-col-reverse {
+    flex-direction: column-reverse;
+}
 .col-gap-0 {
     column-gap: 0;
+}
+.col-gap-10 {
+    column-gap: 10px;
+}
+.col-gap-20 {
+    column-gap: 20px;
+}
+.col-gap-30 {
+    column-gap: 30px;
+}
+.col-gap-40 {
+    column-gap: 40px;
+}
+
+/* FLEX - rows */
+.flex-row {
+    flex-direction: row;
+}
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+.row-gap-0 {
+    row-gap: 0;
+}
+.row-gap-10 {
+    row-gap: 10px;
+}
+.row-gap-20 {
+    row-gap: 20px;
+}
+.row-gap-30 {
+    row-gap: 30px;
+}
+.row-gap-40 {
+    row-gap: 40px;
 }
 
 /* FONT - sizes*/
