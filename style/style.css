@@ -122,6 +122,12 @@
 }
 
 /*COLOR - text color*/
+.font-white {
+    color: #FFF;
+}
+.font-black {
+    color: #000;
+}
 .font-red {
     color: #D22B2B;
 }
@@ -141,14 +147,41 @@
     color: #355E3B;
 }
 .font-blue {
-    color: #228B22;
+    color: #0000FF;
 }
 .font-light-blue {
-    color: #90EE90;
+    color: #A7C7E7;
 }
 .font-deep-blue {
-    color: #355E3B;
+    color: #00008B;
 }
+
+/*COLOR - background*/
+.bg-white {
+    color: #FFF;
+}
+.bg-black {
+    color: #000;
+}
+.bg-light-red {
+    background: #ffe4e4;
+}
+.bg-deep-red {
+    background: #C04000;
+}
+.bg-light-green {
+    background: #ECFFDC;
+}
+.bg-deep-green {
+    background: #228B22;
+}
+.bg-light-blue {
+    background: #F0FFFF;
+}
+.bg-deep-blue {
+    background: #0096FF;
+}
+
 /* MARGIN - Four equal sides */
 .m-0 {
     margin: 0;
