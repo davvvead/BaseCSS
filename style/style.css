@@ -439,3 +439,47 @@
 .pr-4 {
     padding-right: 40px;
 }
+
+/*WIDTH - percentages*/
+.w-full {
+    width: 100%;
+}
+.w-95 {
+    width: 95%;
+}
+.w-90 {
+    width: 90%;
+}
+.w-80 {
+    width: 80%;
+}
+.w-70 {
+    width: 70%;
+}
+.w-60 {
+    width: 60%;
+}
+.w-half {
+    width: 50%;
+}
+.w-40 {
+    width: 40%;
+}
+.w-one-third {
+    width: 33.333%;
+}
+.w-30 {
+    width: 30%;
+}
+.w-one-fourth {
+    width: 25%;
+}
+.w-one-fifth {
+    width: 20%;
+}
+.w-10 {
+    width: 10%;
+}
+.w-5 {
+    width: 5%;
+}
