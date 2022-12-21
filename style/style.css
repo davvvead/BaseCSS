@@ -483,3 +483,57 @@
 .w-5 {
     width: 5%;
 }
+
+/*WIDTH - pixels*/
+.w-10p {
+    width: 10px;
+}
+
+/*HEIGHT - percentages*/
+.h-full {
+    height: 100%;
+}
+.h-95 {
+    height: 95%;
+}
+.h-90 {
+    height: 90%;
+}
+.h-80 {
+    height: 80%;
+}
+.h-70 {
+    height: 70%;
+}
+.h-60 {
+    height: 60%;
+}
+.h-half {
+    height: 50%;
+}
+.h-40 {
+    height: 40%;
+}
+.h-one-third {
+    height: 33.333%;
+}
+.h-30 {
+    height: 30%;
+}
+.h-one-fourth {
+    height: 25%;
+}
+.h-one-fifth {
+    height: 20%;
+}
+.h-10 {
+    height: 10%;
+}
+.h-5 {
+    height: 5%;
+}
+
+/*HEIGHT - pixels*/
+.h-10p {
+    height: 10px;
+}
