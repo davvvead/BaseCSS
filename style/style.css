@@ -11,6 +11,20 @@
     font-size: 1rem;  
 }
 
+/* DISPLAY */
+.grid {
+    display: grid;
+}
+.float-l {
+    float: left;
+}
+.float-r {
+    float: right;
+}
+.float-none {
+    float: none;
+}
+
 /* CONTAINER */
 .container {
     width: 90%;
