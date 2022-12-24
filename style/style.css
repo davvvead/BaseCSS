@@ -11,6 +11,7 @@
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 0;
     font-weight: 400;
     font-size: 1rem;  
 }
@@ -23,7 +24,7 @@
     margin-right: auto; 
 }
 
-/* DISPLAY - FLOAT */
+/* FLOAT */
 .float-l {
     float: left;
 }
@@ -91,9 +92,24 @@
     row-gap: 40px;
 }
 
-/* DISPLAY - GRID */
+/* DISPLAY - grid */
 .grid {
     display: grid;
+}
+
+/* DISPLAY - block */
+.block {
+    display: block;
+}
+
+/* DISPLAY - inline-block */
+.inline-block {
+    display: inline-block;
+}
+
+/* DISPLAY - none */
+.hide {
+    display: none;
 }
 
 /* FONT - sizes*/
@@ -202,7 +218,7 @@
     background: #0096FF;
 }
 
-/* MARGIN - Four equal sides */
+/* MARGIN - four equal sides */
 .m-0 {
     margin: 0;
 }
@@ -219,7 +235,7 @@
     margin: 40px;
 }
 
-/* MARGIN - Two equal sides (Top / Bottom) */
+/* MARGIN - two equal sides (Top / Bottom) */
 .my-0 {
     margin-top: 0;
     margin-bottom: 0;
@@ -241,7 +257,7 @@
     margin-bottom: 16px;
 }
 
-/* MARGIN - Two equal sides (Left / Right) */
+/* MARGIN - two equal sides (Left / Right) */
 .mx-0 {
     margin-left: 0;
     margin-right: 0;
@@ -331,7 +347,7 @@
     margin-right: 40px;
 }
 
-/* PADDING - Four equal sides */
+/* PADDING - four equal sides */
 .p-0 {
     padding: 0;
 }
@@ -348,7 +364,7 @@
     padding: 40px;
 }
 
-/* PADDING - Two equal sides (Top / Bottom) */
+/* PADDING - two equal sides (Top / Bottom) */
 .py-0 {
     padding-top: 0;
     padding-bottom: 0;
@@ -370,7 +386,7 @@
     padding-bottom: 16px;
 }
 
-/* PADDING - Two equal sides (Left / Right) */
+/* PADDING - two equal sides (Left / Right) */
 .px-0 {
     padding-left: 0;
     padding-right: 0;
@@ -508,6 +524,15 @@
 .w-10p {
     width: 10px;
 }
+.w-20p {
+    width: 20px;
+}
+.w-30p {
+    width: 30px;
+}
+.w-40p {
+    width: 40px;
+}
 
 /*HEIGHT - percentages*/
 .h-full {
@@ -556,4 +581,13 @@
 /*HEIGHT - pixels*/
 .h-10p {
     height: 10px;
+}
+.h-20p {
+    height: 20px;
+}
+.h-30p {
+    height: 30px;
+}
+.h-40p {
+    height: 40px;
 }
