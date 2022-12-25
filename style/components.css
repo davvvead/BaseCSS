@@ -1,0 +1,23 @@
+/* FORM COMPONENT */
+input {
+    border: #d6d6d6 1px solid;
+    outline: none;
+    border-radius: 4px;
+    padding: 4px;
+    cursor: auto;
+}
+
+textarea {
+    border: #d6d6d6 1px solid;
+    outline: none;
+    border-radius: 4px;
+    padding: 4px;
+    cursor: auto;
+}
+
+form button {
+    background: #fff;
+    border: #d6d6d6 1px solid;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
