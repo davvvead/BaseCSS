@@ -132,7 +132,7 @@
 }
 
 /* FONT - weight*/
-.fw-slim {
+.fw-thin {
     font-weight: 100;
 }
 .fw-normal {
@@ -154,6 +154,17 @@
 }
 .font-center {
     text-align: center;
+}
+
+/* BORDER */
+.border-none {
+    border: 0;
+}
+.border-thin {
+    border: 1px solid #d6d6d6;
+}
+.border-thick {
+    border: 2px solid #d6d6d6;
 }
 
 /*COLOR - text color*/

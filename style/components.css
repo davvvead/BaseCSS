@@ -3,7 +3,7 @@ input {
     border: #d6d6d6 1px solid;
     outline: none;
     border-radius: 4px;
-    padding: 4px;
+    padding: 6px;
     cursor: auto;
 }
 
@@ -11,7 +11,7 @@ textarea {
     border: #d6d6d6 1px solid;
     outline: none;
     border-radius: 4px;
-    padding: 4px;
+    padding: 6px;
     cursor: auto;
 }
 
