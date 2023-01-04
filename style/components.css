@@ -23,19 +23,35 @@ form button {
 }
 
 /* TABLE */
+table {
+    padding: 0;
+    background: #fff;
+    border-collapse: collapse;
+    line-height: 2.5rem;
+    /* border: #d6d6d6 1px solid; */
+    color: black;
+}
+
+/* TABLE - Normal Table */
 table.normal-table {
     padding: 0;
     background: #fff;
     border-collapse: collapse;
     line-height: 2.5rem;
-    border: #d6d6d6 1px solid;
+    /* border: #d6d6d6 1px solid; */
     color: black;
+}
+
+table.check-table tr:nth-child(even) {
+    background: #d6d6d6;
 }
 
 th {
     border-bottom: 1px #d6d6d6 solid;
     padding-left: 40px;
     padding-right: 40px; 
+    font-weight: 600;
+    font-size: 16px;
 }
 
 tr {
