@@ -167,6 +167,50 @@
     border: 2px solid #d6d6d6;
 }
 
+/* BORDER - top */
+.border-t-none {
+    border-top: 0;
+}
+.border-t-thin {
+    border-top: 1px solid #d6d6d6;
+}
+.border-t-thick {
+    border-top: 2px solid #d6d6d6;
+}
+
+/* BORDER - bottom */
+.border-b-none {
+    border-bottom: 0;
+}
+.border-b-thin {
+    border-bottom: 1px solid #d6d6d6;
+}
+.border-b-thick {
+    border-bottom: 2px solid #d6d6d6;
+}
+
+/* BORDER - left */
+.border-l-none {
+    border-left: 0;
+}
+.border-l-thin {
+    border-left: 1px solid #d6d6d6;
+}
+.border-l-thick {
+    border-left: 2px solid #d6d6d6;
+}
+
+/* BORDER - right */
+.border-r-none {
+    border-right: 0;
+}
+.border-r-thin {
+    border-right: 1px solid #d6d6d6;
+}
+.border-r-thick {
+    border-right: 2px solid #d6d6d6;
+}
+
 /*COLOR - text color*/
 .font-white {
     color: #FFF;

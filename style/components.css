@@ -21,3 +21,32 @@ form button {
     border-radius: 4px;
     padding: 5px 10px;
 }
+
+/* TABLE */
+table.normal-table {
+    padding: 0;
+    background: #fff;
+    border-collapse: collapse;
+    line-height: 2.5rem;
+    border: #d6d6d6 1px solid;
+    color: black;
+}
+
+th {
+    border-bottom: 1px #d6d6d6 solid;
+    padding-left: 40px;
+    padding-right: 40px; 
+}
+
+tr {
+    border-bottom: 1px #d6d6d6 solid;
+}
+
+td {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* tr:nth-child(even) {
+    background: #d6d6d6;
+} */
