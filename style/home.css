@@ -1,0 +1,21 @@
+/* Nav button */
+nav .action-btn {
+    border-radius: 4px;
+}
+nav .action-btn:hover {
+    background: #0096FF !important;
+    border: 1px solid #0096FF;
+    color: white;
+}
+.nav-right-icon {
+    box-sizing: content-box;
+    padding-top: 5px;
+}
+a:hover {
+    color: #0096FF !important;
+}
+
+.main-category {
+    color: #9e9e9e;
+}
+

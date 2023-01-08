@@ -66,3 +66,13 @@ td {
 /* tr:nth-child(even) {
     background: #d6d6d6;
 } */
+
+/* LIST */
+ul {
+    list-style: none;
+    color: black;
+}
+li, a {
+    text-decoration: none;
+    color: black;
+}
