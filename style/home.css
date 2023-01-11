@@ -8,7 +8,7 @@ nav .action-btn:hover {
     color: white;
 }
 .nav-right-icon {
-    box-sizing: content-box;
+    /* box-sizing: content-box; */
     padding-top: 5px;
 }
 a:hover {
@@ -19,4 +19,9 @@ a:hover {
     font-size: 17px;
 }
 
+.demo {
+    background: #eeeeee;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
 
