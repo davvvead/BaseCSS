@@ -46,6 +46,15 @@
     flex-wrap: nowrap;
 }
 
+/* POSITION - */
+.fixed {
+    position: fixed;
+}
+
+.sticky {
+    position: sticky;
+}
+
 /* FLEX - columns */
 .flex-col {
     flex-direction: column;
@@ -541,6 +550,9 @@
 .w-fullp {
     width: 100%;
 }
+.w-screen {
+    height: 100vw;
+}
 .w-95p {
     width: 95%;
 }
@@ -562,7 +574,7 @@
 .w-40p {
     width: 40%;
 }
-.w-one-thirdp {
+.w-33p {
     width: 33.333%;
 }
 .w-30p {
@@ -599,6 +611,9 @@
 .h-fullp {
     height: 100%;
 }
+.h-screen {
+    height: 100vh;
+}
 .h-95p {
     height: 95%;
 }
@@ -620,7 +635,7 @@
 .h-40p {
     height: 40%;
 }
-.h-one-thirdp {
+.h-33p {
     height: 33.333%;
 }
 .h-30p {
