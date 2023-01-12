@@ -25,3 +25,13 @@ a:hover {
     box-sizing: border-box;
 }
 
+/* HTML snippet*/
+.tag {
+    color:#e99c68;
+}
+.class {
+    color: #b78ac4;
+}
+.class-name {
+    color: #6096d3;
+}
