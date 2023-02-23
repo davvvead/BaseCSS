@@ -166,6 +166,11 @@
     text-align: center;
 }
 
+/* TEXT - underline */
+.font-underline {
+    text-decoration: underline;
+}
+
 /* BORDER */
 .border-none {
     border: 0;
