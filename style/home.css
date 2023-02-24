@@ -59,3 +59,17 @@ a:hover {
     border-color: black !important;
 }
 
+/* Height Styling */
+.height-demo {
+    height: 400px;
+    justify-content: space-between;
+}
+.height-demo-child {
+    width: 8%;
+    border-radius: 4px;
+    margin-top: auto;
+}
+.height-pixels {
+    height: 100px;
+    column-gap: 40px;
+}
