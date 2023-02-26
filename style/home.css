@@ -61,6 +61,7 @@ a:hover {
 
 /* Height Styling */
 .height-demo {
+    background: #fff;
     height: 400px;
     justify-content: space-between;
 }
@@ -71,7 +72,7 @@ a:hover {
 }
 .height-pixels {
     /* height: 100px; */
-    column-gap: 40px;
+    column-gap: 20px;
 }
 .hp {
     margin-top: auto;
