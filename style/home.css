@@ -51,10 +51,21 @@ a:hover {
 .class {
     color: #b78ac4;
 }
+.bracket {
+    color: #003cff;
+}
+.style-rule {
+    color: #9f5e08;
+}
 .class-name {
     color: #6096d3;
 }
-
+.drk {
+    color: #9f5e08;
+}
+.gry {
+    color: #9e9e9e;
+}
 .border-black {
     border-color: black !important;
 }
@@ -76,4 +87,8 @@ a:hover {
 }
 .hp {
     margin-top: auto;
+}
+
+.bp-row {
+    justify-content: space-between;
 }

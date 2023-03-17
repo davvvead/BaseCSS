@@ -15,7 +15,6 @@
     font-weight: 400;
     font-size: 16px;  
 }
-
 /* CONTAINER */
 .container {
     width: 90%;
@@ -84,6 +83,9 @@
 }
 .flex-row-reverse {
     flex-direction: row-reverse;
+}
+.space-between {
+    justify-content: space-between;
 }
 .row-gap-0 {
     row-gap: 0;
@@ -327,6 +329,10 @@
 }
 
 /* MARGIN - two equal sides (Left / Right) */
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
 .mx-0 {
     margin-left: 0;
     margin-right: 0;

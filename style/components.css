@@ -42,7 +42,7 @@ table.normal-table {
     color: black;
 }
 
-table.check-table tr:nth-child(even) {
+table.striped tr:nth-child(even) {
     background: #d6d6d6;
 }
 
