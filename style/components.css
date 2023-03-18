@@ -76,3 +76,8 @@ li, a {
     text-decoration: none;
     color: black;
 }
+
+#alert, .alert {
+    padding: 10px 30px;
+    margin-bottom: 40px;
+}

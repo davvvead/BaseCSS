@@ -31,6 +31,8 @@
 
     <!-- Main Body -->
     <section id="main">
+        <!-- Back To Top Button -->
+        <button type="button" class="btt font-white fixed p-1 border-none" style="z-index: 99999; right: 10%; bottom: 10%; border-radius: 80px; background: #0000FF;"><a href="" class="font-white"><i class="fa fa-arrow-up"></i></a></button>
         <!-- Container Start -->
         <div class="container border-l-thin border-r-thin flex">
             <!-- Side Nav Start -->
@@ -55,11 +57,6 @@
             
             <!-- Main Content Start -->
             <div class="main-content p-2 w-100p border-l-thin">
-                <!-- <section id="getting-started">
-                    <div class="section-heading mb-2">
-                        <h1 class="main-heading fw-thick mb-1 font-blue">Getting Started</h1>
-                    </div>
-                </section> -->
 
                 <!-- Utilities Section Start -->
                 <section id="utilities" class="w-100p">
@@ -1378,7 +1375,7 @@
                     <div class="sub-section-heading mb-2 border-b-thin">
                         <h2 class="small-heading fw-thick mb-1">Striped Table</h2>
                     </div>
-                    <div class="component">
+                    <div class="component mb-4">
                         <table class="striped w-100p border-none box-shadow-sm">
                             <thead class="border-b-thin font-left bg-deep-blue font-white">
                                     <th>Names</th>
@@ -1453,11 +1450,70 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Alert Component Start -->
+                    <div id="form" class="sub-section-heading mb-2 border-b-thin">
+                        <h2 class="small-heading fw-thick mb-1">Alert</h2>
+                    </div>
+                    <div class="component mb-4">
+                        
+                    <!-- Alert Examples -->
+                    <div id="alert" class="hide bg-deep-green font-white px-3">
+                        You pressed the alert btn!
+                    </div>
+                    <button class="px-2 py-1" id="alert-btn">Press this button to show the alert</button>
+                    <!-- Code Example -->
+                    <div class="code border-thin mt-2">
+                        <div class="code-heading p-1 border-b-thin">
+                            <h1 class="">HTML</h1>
+                        </div>
+                        <div class="code-text py-2 px-1">
+                        <!-- <pre> -->
+                            <code class="" data-lang="html">
+                                <span><</span><span class="tag">form </span><span class="class">class</span><span>=</span><span class="class-name">"border-thin p-2"</span><span>></span><br>
+                                &emsp;
+                                <span><</span><span class="tag">div </span><span class="class">class</span><span>=</span><span class="class-name">"flex flex-row mb-2 space-between"</span><span>></span><br>
+                                &emsp;&emsp;
+                                <span><</span><span class="tag">div </span><span class="class">class</span><span>=</span><span class="class-name">"flex flex-col mr-2"</span><span>></span><br>
+                                &emsp;&emsp;&emsp;
+                                <span><</span><span class="tag">label </span><span class="class">class</span><span>=</span><span class="class-name">"mb-1"</span><span>></span>An example of a form component<span><</span><span class="tag">label</span><span>/></span><br>
+                                &emsp;&emsp;&emsp;
+                                <span><</span><span class="tag">input </span><span class="class">type</span><span>=</span><span class="class-name">"text"</span><span class="class"> placeholder</span><span>=</span><span class="class-name">"Example input"</span><span>></span><br>
+                                &emsp;&emsp;
+                                <span><</span><span class="tag">/div</span><span>></span><br>
+
+                                &emsp;&emsp;
+                                <span><</span><span class="tag">div </span><span class="class">class</span><span>=</span><span class="class-name">"flex flex-col mr-2"</span><span>></span><br>
+                                &emsp;&emsp;&emsp;
+                                <span><</span><span class="tag">label </span><span class="class">class</span><span>=</span><span class="class-name">"mb-1"</span><span>></span>Name<span><</span><span class="tag">label</span><span>/></span><br>
+                                &emsp;&emsp;&emsp;
+                                <span><</span><span class="tag">input </span><span class="class">type</span><span>=</span><span class="class-name">"text"</span><span class="class"> placeholder</span><span>=</span><span class="class-name">"Enter your name here"</span><span>></span><br>
+                                &emsp;&emsp;
+                                <span><</span><span class="tag">/div</span><span>></span><br>
+
+                                &emsp;&emsp;
+                                <span><</span><span class="tag">div </span><span class="class">class</span><span>=</span><span class="class-name">"flex flex-col mr-2"</span><span>></span><br>
+                                &emsp;&emsp;&emsp;
+                                <span><</span><span class="tag">label </span><span class="class">class</span><span>=</span><span class="class-name">"mb-1"</span><span>></span>Telephone<span><</span><span class="tag">label</span><span>/></span><br>
+                                &emsp;&emsp;&emsp;
+                                <span><</span><span class="tag">input </span><span class="class">type</span><span>=</span><span class="class-name">"tel"</span><span class="class"> placeholder</span><span>=</span><span class="class-name">"+233 55 847 4211"</span><span>></span><br>
+                                &emsp;&emsp;
+                                <span><</span><span class="tag">/div</span><span>></span><br>
+                                &emsp;
+                                <span><</span><span class="tag">/div</span><span>></span><br>
+                                <span><</span><span class="tag">/form</span><span>></span><br>
+                            </code>
+                        <!-- </pre> -->
+                        </div>
+                    </div>
+                    </div>
                 </section>
             </div>
         </div>
         <!-- Container End -->
     </section>
     <!-- Main Body -->
+
+    <script src="js/script.js"></script>
 </body>
 </html>
