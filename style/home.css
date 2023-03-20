@@ -1,4 +1,22 @@
 /* CONTAINER */
+.container {
+    width: 100% !important;
+}
+
+@media (min-width: 375px)
+{
+    .container {
+        width: 90% !important;
+    }
+}
+
+@media (min-width: 1440px)
+{
+    .container {
+        width: 70% !important;
+    }
+}
+
 @media (min-width: 1440px)
 {
     .container {
@@ -16,6 +34,47 @@
     }
 }
 
+@media (max-width: 1000px)
+{
+    .sidenav {
+        display: none;
+    }
+    .main-content {
+        padding: 20px 10px !important;
+    }
+}
+
+/* MAIN CONTENT */
+.main-content {
+    box-sizing: border-box;
+}
+
+/* BACK TO TOP Btn*/
+.btt {
+    color: #fff;
+    position: fixed;
+    padding: 10px 12px;
+    bottom: 10%;
+    right: 10%;
+    border-radius: 80px;
+    background: #0000FF;
+    border: 0;
+}
+
+@media (max-width: 1000px)
+{
+    .btt {
+        right: 0%;
+        padding: 8px 10px;
+    }
+}
+
+@media (max-width: 426px)
+{
+    .btt {
+        display: none !important;
+    }
+}
 
 /* Nav button */
 nav .action-btn {
@@ -88,7 +147,52 @@ a:hover {
 .hp {
     margin-top: auto;
 }
-
 .bp-row {
     justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+.bp-row .demo {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1000px)
+{
+    .hp {
+        width: 18% !important;
+    }
+    .bp-row .demo {
+        width: 48%;
+    }
+}
+
+
+/* COLOR */
+
+.color-row {
+    flex-wrap: wrap;
+}
+
+.color-row .demo {
+    width: 148px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 1024px) {
+    .color-row .demo {
+        width: 22.8%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .color-row .demo {
+        width: 23.1%;
+    }
+}
+
+/* FORM */
+.form-container .flex{
+    width: 30%;
+}
+
+form input {}
