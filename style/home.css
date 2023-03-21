@@ -166,6 +166,22 @@ a:hover {
     }
 }
 
+@media (max-width: 500px)
+{
+    /* .hp {
+        width: 18% !important;
+    } */
+    .margin-y {
+        flex-wrap: wrap;
+    }
+    .margin-y .hp {
+        margin-bottom: 20px;
+    }
+    .bp-row .demo {
+        width: 100%;
+    }
+}
+
 
 /* COLOR */
 
@@ -174,8 +190,14 @@ a:hover {
 }
 
 .color-row .demo {
-    width: 148px;
+    width: 47%;
     margin-bottom: 20px;
+}
+
+@media (min-width:768px) {
+    .color-row .demo {
+        width: 148px;
+    }
 }
 
 @media (min-width: 1024px) {
@@ -191,6 +213,15 @@ a:hover {
 }
 
 /* FORM */
+@media (max-width:500px) {
+    .form-container{
+        flex-wrap: wrap;
+    }
+    .form-container .flex{
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+}
 .form-container .flex{
     width: 30%;
 }
