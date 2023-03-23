@@ -236,10 +236,46 @@ form input {}
 }
 
 h1.hero {
-    font-size: 40px;
-    text-align: center;
+    font-size: 39px;
+    width: 100%;
 }
 
 #display {
     margin-top: 200px;
 }
+
+@media (max-width:900px) {
+    div#display {
+        margin-top: 80px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #display h1 {
+        font-size: 30px;
+        /* text-align: center; */
+    }
+}
+
+@media (max-width:500px) {
+    div#display {
+        margin-top: 40px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #display h1 {
+        font-size: 24px;
+        /* text-align: center; */
+    }
+    body {
+        background-image: url(/assets/bg-img.png) !important;
+    }
+}
+
+@media (min-width:1600px) {
+    div#display {
+        margin-top: 300px;
+    }
+}
+
