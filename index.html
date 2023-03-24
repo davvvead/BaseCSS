@@ -21,8 +21,11 @@
                     <!-- <button class="bg-white py-1 px-3 border-thin action-btn font-blue">Download</button> -->
                     <a href="docs.html" class="normal-font fw-thick py-1">Docs</a>
                     <div class="nav-right-icon">
-                        <i class="fa fa-github major-heading ml-2 main-heading" aria-hidden="true"></i>
+                        <i class="fa fa-github ml-2 pt-1" aria-hidden="true"></i>
                     </div>
+                </div>
+                <div class="nav-mobile-toggle ml-auto flex">
+                    <i class="fa fa-bars py-1 big-font"></i>
                 </div>
             </div>
         </div>
@@ -49,6 +52,11 @@
             background-repeat: no-repeat;
             background-size: cover;
             height: 100vh;
+        }
+        @media (max-width:500px) {
+            body {
+                background-image: url(/assets/bg-img.png) !important;
+            }
         }
     </style>
 </body>
