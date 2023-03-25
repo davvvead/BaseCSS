@@ -48,8 +48,8 @@ table.striped tr:nth-child(even) {
 
 th {
     border-bottom: 1px #d6d6d6 solid;
-    padding-left: 40px;
-    padding-right: 40px; 
+    padding-left: 10px;
+    padding-right: 10px; 
     font-weight: 600;
     font-size: 16px;
 }
@@ -59,8 +59,8 @@ tr {
 }
 
 td {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* tr:nth-child(even) {

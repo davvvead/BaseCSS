@@ -68,6 +68,9 @@
         padding: 8px 10px;
         z-index: 9999999;
     }
+    .main-content {
+        border-left: 0 !important;
+    }
 }
 
 @media (max-width: 426px)
@@ -108,10 +111,21 @@ a:hover {
     .nav-mobile-toggle {
         padding-top: 9px;
     }
+    .mobile-nav {
+        width: 60%;
+    }
+}
+@media(max-width: 376px) {
+    .mobile-nav {
+        width: 90%;
+    }
 }
 @media (min-width: 767px)
 {
     .nav-mobile-toggle {
+        display: none !important;
+    }
+    .mobile-nav {
         display: none !important;
     }
 }
@@ -209,8 +223,14 @@ a:hover {
 }
 
 .color-row .demo {
-    width: 47%;
+    width: 50%;
     margin-bottom: 20px;
+}
+
+@media (min-width:370px) {
+    .color-row .demo {
+        width: 47%;
+    }
 }
 
 @media (min-width:768px) {
