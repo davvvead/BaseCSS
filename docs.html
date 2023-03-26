@@ -21,7 +21,8 @@
                 <div class="nav-right ml-auto flex">
                     <button class="bg-white py-1 px-3 border-thin action-btn">Download</button>
                     <div class="nav-right-icon">
-                        <i class="fa fa-github major-heading ml-2 py-1" aria-hidden="true"></i>
+                        <i class="fa fa-github big-font ml-2 py-1" aria-hidden="true"></i>
+                        <i class="fa fa-youtube-play big-font ml-2 py-1" aria-hidden="true"></i>
                     </div>
                 </div>
                 <div class="nav-mobile-toggle ml-auto flex">
@@ -32,15 +33,29 @@
         <!-- Mobile Navigation Start -->
         <div class="mobile-nav px-1 hide">
             <div class="close flex">
-                <i class="fa fa-close ml-auto hide"></i>
+                <i class="fa fa-close ml-auto hide big-font"></i>
             </div>
             <div class="flex">
                 <ul class="nav-links">
-                    <li><a href="#about" class="text">About</a></li>
-                    <li><a href="#contact" class="text">Contact</a></li>
-                    <li><a href="#portfolio" class="text">Services</a></li>
-                    <li><a href="blog.html" class="text">Blog</a></li>
+                    <h1 class="big-font font-blue mb-2">BaseCSS</h1>
+                    <li class="main-category mb-1 fw-thick font font-underline">Utilities</li>
+                    <li class="sub-category mb-1"><a href="#fonts">Fonts</a></li>
+                    <li class="sub-category mb-1"><a href="#border">Border</a></li>
+                    <li class="sub-category mb-1"><a href="#width">Width</a></li>
+                    <li class="sub-category mb-1"><a href="#height">Height</a></li>
+                    <li class="sub-category mb-1"><a href="#margin">Margin</a></li>
+                    <li class="sub-category mb-1"><a href="#padding">Padding</a></li>
+                    <li class="sub-category mb-1"><a href="#color">Color</a></li>
+                    <li class="sub-category mb-1"><a href="#media">Media Query</a></li>
+                    <li class="main-category mb-1 fw-thick font font-underline">Components</li>
+                    <li class="sub-category mb-1"><a href="#form">Form</a></li>
+                    <li class="sub-category mb-1"><a href="#table">Table</a></li>
+                    <li class="sub-category mb-1"><a href="#alert">Alert</a></li>
                 </ul>
+            </div>
+            <div class="flex social-icons">
+                <i class="fa fa-github big-font ml-2 py-1" aria-hidden="true"></i>
+                <i class="fa fa-youtube-play big-font ml-2 py-1" aria-hidden="true"></i>
             </div>
         </div>
         <!-- Mobile Navigation End -->
@@ -1458,7 +1473,7 @@
                     <div class="component mb-4">
                         
                     <!-- Alert Examples -->
-                    <div id="alert" class="hide bg-deep-green font-white px-3">
+                    <div id="alert" class="hide bg-deep-green font-white">
                         You pressed the alert btn!
                     </div>
                     <button class="px-2 py-1" id="alert-btn">Press this button to show the alert</button>
@@ -1470,38 +1485,7 @@
                         <div class="code-text py-2 px-1">
                         <!-- <pre> -->
                             <code class="" data-lang="html">
-                                <span><</span><span class="tag">form </span><span class="class">class</span><span>=</span><span class="class-name">"border-thin p-2"</span><span>></span><br>
-                                &emsp;
-                                <span><</span><span class="tag">div </span><span class="class">class</span><span>=</span><span class="class-name">"flex flex-row mb-2 space-between"</span><span>></span><br>
-                                &emsp;&emsp;
-                                <span><</span><span class="tag">div </span><span class="class">class</span><span>=</span><span class="class-name">"flex flex-col mr-2"</span><span>></span><br>
-                                &emsp;&emsp;&emsp;
-                                <span><</span><span class="tag">label </span><span class="class">class</span><span>=</span><span class="class-name">"mb-1"</span><span>></span>An example of a form component<span><</span><span class="tag">label</span><span>/></span><br>
-                                &emsp;&emsp;&emsp;
-                                <span><</span><span class="tag">input </span><span class="class">type</span><span>=</span><span class="class-name">"text"</span><span class="class"> placeholder</span><span>=</span><span class="class-name">"Example input"</span><span>></span><br>
-                                &emsp;&emsp;
-                                <span><</span><span class="tag">/div</span><span>></span><br>
-
-                                &emsp;&emsp;
-                                <span><</span><span class="tag">div </span><span class="class">class</span><span>=</span><span class="class-name">"flex flex-col mr-2"</span><span>></span><br>
-                                &emsp;&emsp;&emsp;
-                                <span><</span><span class="tag">label </span><span class="class">class</span><span>=</span><span class="class-name">"mb-1"</span><span>></span>Name<span><</span><span class="tag">label</span><span>/></span><br>
-                                &emsp;&emsp;&emsp;
-                                <span><</span><span class="tag">input </span><span class="class">type</span><span>=</span><span class="class-name">"text"</span><span class="class"> placeholder</span><span>=</span><span class="class-name">"Enter your name here"</span><span>></span><br>
-                                &emsp;&emsp;
-                                <span><</span><span class="tag">/div</span><span>></span><br>
-
-                                &emsp;&emsp;
-                                <span><</span><span class="tag">div </span><span class="class">class</span><span>=</span><span class="class-name">"flex flex-col mr-2"</span><span>></span><br>
-                                &emsp;&emsp;&emsp;
-                                <span><</span><span class="tag">label </span><span class="class">class</span><span>=</span><span class="class-name">"mb-1"</span><span>></span>Telephone<span><</span><span class="tag">label</span><span>/></span><br>
-                                &emsp;&emsp;&emsp;
-                                <span><</span><span class="tag">input </span><span class="class">type</span><span>=</span><span class="class-name">"tel"</span><span class="class"> placeholder</span><span>=</span><span class="class-name">"+233 55 847 4211"</span><span>></span><br>
-                                &emsp;&emsp;
-                                <span><</span><span class="tag">/div</span><span>></span><br>
-                                &emsp;
-                                <span><</span><span class="tag">/div</span><span>></span><br>
-                                <span><</span><span class="tag">/form</span><span>></span><br>
+                                <span><</span><span class="tag">div </span><span class="class">id</span><span>=</span><span class="class-name">"alert"</span><span class="class"> class</span><span>=</span><span class="class-name">"bg-deep-green font-white"</span><span>></span><span><</span><span class="tag">/div</span><span>></span><br>
                             </code>
                         <!-- </pre> -->
                         </div>
