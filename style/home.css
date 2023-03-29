@@ -324,6 +324,16 @@ h1.hero {
         font-size: 24px;
         /* text-align: center; */
     }
+    .h-percent {
+        overflow-x: scroll;
+        column-gap: 10px;
+    }
+    .h-percent .height-demo-child {
+        width: 40px !important;
+    }
+    .h-percent .height-demo-child:last-child p{
+        margin-top: 0;
+    }
 }
 
 @media (min-width:1600px) {
@@ -331,4 +341,3 @@ h1.hero {
         margin-top: 300px;
     }
 }
-
