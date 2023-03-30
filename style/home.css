@@ -137,7 +137,7 @@ a:hover {
         width: 95%;
     }
 }
-@media (min-width: 767px)
+@media (min-width: 600px)
 {
     .nav-mobile-toggle {
         display: none !important;
@@ -187,7 +187,7 @@ a:hover {
     justify-content: space-between;
 }
 .height-demo-child {
-    width: 8%;
+    /* width: 8%; */
     border-radius: 4px;
     margin-top: auto;
 }
@@ -218,9 +218,16 @@ a:hover {
 
 @media (max-width: 500px)
 {
-    /* .hp {
+    .h-percent {
+        overflow-x: scroll;
+        column-gap: 20px;
+    }
+    .h-percent p {
+        width: 60px;
+    }
+    .hp {
         width: 18% !important;
-    } */
+    }
     .margin-y {
         flex-wrap: wrap;
     }
@@ -240,11 +247,10 @@ a:hover {
 }
 
 .color-row .demo {
-    width: 50%;
     margin-bottom: 20px;
 }
 
-@media (min-width:370px) {
+@media (min-width:392px) {
     .color-row .demo {
         width: 47%;
     }
@@ -321,16 +327,6 @@ h1.hero {
     #display h1 {
         font-size: 24px;
         /* text-align: center; */
-    }
-    .h-percent {
-        overflow-x: scroll;
-        column-gap: 10px;
-    }
-    .h-percent .height-demo-child {
-        width: 40px !important;
-    }
-    .h-percent .height-demo-child:last-child p{
-        margin-top: 0;
     }
 }
 
