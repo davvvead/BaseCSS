@@ -237,7 +237,6 @@ a:hover {
 
 .color-row {
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .color-row .demo {
@@ -246,9 +245,6 @@ a:hover {
 }
 
 @media (min-width:370px) {
-    .color-row {
-        justify-content: start;
-    }
     .color-row .demo {
         width: 47%;
     }
