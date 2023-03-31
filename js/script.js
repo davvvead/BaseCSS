@@ -1,7 +1,7 @@
 // Alert
 const alertBtn = document.getElementById('alert-btn');
 const btt = document.getElementsByClassName('btt');
-const alertBox =  document.getElementById('alert');
+const alertBox =  document.querySelector('.alert');
 alertBtn.addEventListener('click', alertTrigger);
 
 function alertTrigger(){
