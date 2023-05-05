@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <title>BaseCSS</title>
 </head>
-<body class="">
+<body id="main-body">
     <!-- Nav -->
     <nav class="border-b-thin">
         <div class="container py-2">
@@ -42,6 +42,7 @@
                     <li class="sub-category mb-1"><a href="#npm">NPM</a></li>
                     <li class="sub-category mb-1"><a href="#link">Link</a></li>
                     <li class="main-category mb-1 fw-thick font font-underline">Utilities</li>
+                    <li class="sub-category mb-1"><a href="#container-place">Container</a></li>
                     <li class="sub-category mb-1"><a href="#fonts">Fonts</a></li>
                     <li class="sub-category mb-1"><a href="#border">Border</a></li>
                     <li class="sub-category mb-1"><a href="#width">Width</a></li>
@@ -58,7 +59,7 @@
             </div>
             <div class="flex social-icons">
                 <a href="https://github.com/davvvead"><i class="fa fa-github big-font ml-2" aria-hidden="true"></i></a>
-                <i class="fa fa-youtube-play big-font ml-2" aria-hidden="true"></i>
+                <a href="https://www.youtube.com/@davvead"><i class="fa fa-youtube-play big-font ml-2" aria-hidden="true"></i></a>
             </div>
         </div>
         <!-- Mobile Navigation End -->
@@ -68,7 +69,7 @@
     <!-- Main Body -->
     <section id="main">
         <!-- Back To Top Button -->
-        <button title="btt" type="button" class="btt"><a href="" class="font-white"><i class="fa fa-arrow-up"></i></a></button>
+        <a href="#main-body"><button title="btt" type="button" class="btt"><i class="fa fa-arrow-up"></i></button></a>
         <!-- Container Start -->
         <div class="container border-l-thin border-r-thin flex">
             <!-- Side Nav Start -->
@@ -78,6 +79,7 @@
                     <li class="sub-category mb-1"><a href="#npm">NPM</a></li>
                     <li class="sub-category mb-1"><a href="#link">Link</a></li>
                     <li class="main-category mb-1 fw-thick font font-underline">Utilities</li>
+                    <li class="sub-category mb-1"><a href="#container-place">Container</a></li>
                     <li class="sub-category mb-1"><a href="#fonts">Fonts</a></li>
                     <li class="sub-category mb-1"><a href="#border">Border</a></li>
                     <li class="sub-category mb-1"><a href="#width">Width</a></li>
@@ -144,6 +146,51 @@
                     <div class="section-heading mb-2">
                         <h1 class="main-heading fw-thick mb-1 font-blue">Utilities</h1>
                     </div>
+
+                    <!-- Container Section Start -->
+                    <div id="container-place" class="sub-section-heading mb-2 border-b-thin">
+                        <h2 class="small-heading fw-thick mb-1">Container</h2>
+                    </div>
+                    <!-- Container -->
+                    <div class="sub-section mb-4">
+                        <div class="demo mb-1 p-1 w-100p">
+                          <p class="">.container</p>
+                        </div>
+                        <!-- Code Example -->
+                        <div class="code border-thin mt-2">
+                            <div class="code-heading p-1 border-b-thin">
+                                <h1 class="">HTML</h1>
+                            </div>
+                            <div class="code-text py-2 px-1">
+                            <!-- <pre> -->
+                                <code class="" data-lang="html">
+                                    <span><</span><span class="tag">div </span><span class="class">class</span><span>=</span><span class="class-name">"container"</span><span>></span><span>This is how to use the container</span><span><</span><span><span>/</span><span class="tag">div</span>></span>
+                                </code>
+                            <!-- </pre> -->
+                            </div>
+                        </div>
+                        <!-- Code Example -->
+                        <div class="code border-thin mt-2">
+                            <div class="code-heading p-1 border-b-thin">
+                                <h1 class="">CSS</h1>
+                            </div>
+                            <div class="code-text py-2 px-1">
+                            <!-- <pre> -->
+                                <code class="" data-lang="html">
+                                    <pre>
+.container {
+    width: 90%;
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+                                    </pre>
+                                </code>
+                            <!-- </pre> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Container Section End -->
 
                     <!-- Font Section Start -->
                     <div id="fonts" class="sub-section-heading mb-2 border-b-thin">
