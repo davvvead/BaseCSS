@@ -2,9 +2,7 @@
 const alertBtn = document.getElementById("alert-btn");
 const btt = document.getElementsByClassName("btt");
 const alertBox = document.querySelector(".alert");
-const copyBtn = document.getElementById("copy");
-const cdn = document.getElementById("cdn");
-const cdnTip = document.getElementById("cdn-tip");
+let copyBtn = document.querySelectorAll(".fa-clipboard");
 alertBtn.addEventListener("click", alertTrigger);
 
 function alertTrigger() {
@@ -31,13 +29,21 @@ closeMobileNav.onclick = function closeMoblie() {
 };
 
 // Listening for click of copy Button
-copyBtn.addEventListener("click", triggerCopyCdn);
+console.log(copyBtn);
 
-function triggerCopyCdn() {
-  cdn.innerText;
-  navigator.clipboard.writeText(cdn.innerText);
-  cdnTip.style.display = "block";
+copyBtn.forEach(triggerEvent);
+
+function triggerEvent(item) {
+  item.addEventListener("click", triggerPrompt);
+}
+
+function triggerPrompt(e) {
+  const obj = e.target;
+  const clipText = obj.parentNode.nextElementSibling.innerText;
+  const prev = obj.previousElementSibling;
+  navigator.clipboard.writeText(clipText);
+  prev.style.display = "block";
   setTimeout(function () {
-    cdnTip.style.display = "none";
+    prev.style.display = "none";
   }, 1000);
 }

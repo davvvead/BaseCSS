@@ -328,11 +328,11 @@ h1.hero {
   background: #003cff;
 }
 
-#copy:hover {
+.fa-clipboard:hover {
   color: #003cff;
 }
 
-#copy:active {
+.fa-clipboard:active {
   color: #0096ff;
 }
 
