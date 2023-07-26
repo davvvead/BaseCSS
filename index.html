@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <title>BaseCSS</title>
 </head>
+
 <body>
     <!-- Nav -->
     <nav class="">
@@ -42,7 +48,8 @@
                 </ul>
             </div>
             <div class="flex social-icons">
-                <a href="https://github.com/davvvead"><i class="fa fa-github big-font ml-2 py-1" aria-hidden="true"></i></a>
+                <a href="https://github.com/davvvead"><i class="fa fa-github big-font ml-2 py-1"
+                        aria-hidden="true"></i></a>
                 <i class="fa fa-youtube-play big-font ml-2 py-1" aria-hidden="true"></i>
             </div>
         </div>
@@ -57,9 +64,12 @@
         <div class="container">
             <div id="display">
                 <h1 class="fw-extra-thick hero font-blue mb-1">Learn CSS and JavaScript fundamentals with style!</h1>
-                <p>A light-weight framework that will beautify your JavaScript learning experience and challenge you to master CSS.</p>
+                <p>A light-weight framework that will beautify your JavaScript learning experience and challenge you to
+                    master CSS.</p>
 
-                <center><a href="docs.html"><button class="py-1 px-2 mt-3 border-none bg-black font-white get-started">Get Started</button></a></center>
+                <center><a href="docs.html"><button
+                            class="py-1 px-2 mt-3 border-none bg-black font-white get-started">Get Started</button></a>
+                </center>
             </div>
         </div>
     </main>
@@ -71,6 +81,7 @@
             background-size: cover;
             height: 100vh;
         }
+
         @media (max-width:500px) {
             body {
                 background-image: url(/assets/bg-img.png) !important;
@@ -79,23 +90,24 @@
     </style>
     <script>
         // Mobile Toggle
-const mobile = document.querySelector('.fa-bars');
-const closeMobileNav = document.querySelector('.close');
-const mobileNav = document.querySelector('.mobile-nav');
+        const mobile = document.querySelector('.fa-bars');
+        const closeMobileNav = document.querySelector('.close');
+        const mobileNav = document.querySelector('.mobile-nav');
 
-// Listening for a click on the mobile toggle
-mobile.onclick = function toggleMoblie(){
-    if(mobileNav.style.display = 'none'){
-        mobileNav.style.display = 'block';
-    }
-}
+        // Listening for a click on the mobile toggle
+        mobile.onclick = function toggleMoblie() {
+            if (mobileNav.style.display = 'none') {
+                mobileNav.style.display = 'block';
+            }
+        }
 
-// Listening for a click on the mobile nav close button
-closeMobileNav.onclick = function closeMoblie(){
-    if(mobileNav.style.display != 'none'){
-        mobileNav.style.display = 'none';
-    }
-}
+        // Listening for a click on the mobile nav close button
+        closeMobileNav.onclick = function closeMoblie() {
+            if (mobileNav.style.display != 'none') {
+                mobileNav.style.display = 'none';
+            }
+        }
     </script>
 </body>
+
 </html>
